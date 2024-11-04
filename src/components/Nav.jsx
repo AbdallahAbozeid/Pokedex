@@ -11,7 +11,7 @@ export const Nav = (props) => {
     })
     return (
         <nav className='flex flex-col px-10  gap-2 bg-gray-200 dark:bg-slate-900 p-2 overflow-y-scroll sticky top-[72px] left-0'>
-            <input placeholder='E.g. 001 or bulba...' value={search} onChange={(e) => { setSearch(e.target.value) }} className='outline-none bg-gray-100 dark:bg-slate-800 text-gray-600 dark:text-gray-300 p-2 rounded-md mb-2 caret-emerald-700' />
+            <input placeholder='E.g. 001 or bulba...' value={search} onChange={(e) => { setSearch(e.target.value) }} className='outline-none bg-gray-100 dark:bg-slate-800 text-gray-600 dark:text-gray-300 p-2 rounded-md mb-2 caret-emerald-700 animate-pulse focus:animate-none' />
             {
                 filteredpoke.map((poke) => {
                     const realIndex = first151Pokemon.indexOf(poke)
