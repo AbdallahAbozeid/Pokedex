@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Header } from "./components/Header"
 import { Nav } from "./components/Nav"
-import { PokeCard } from "./components/pokeCard"
+import { PokeCard } from "./components/PokeCard"
 import DarkModeToggle from "./components/DarkModeToggle"
 
 
